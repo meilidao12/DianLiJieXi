@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:WpfResource.Resource">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/WpfResource;component/Resource/Color.xaml"></ResourceDictionary>
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>
+
+<!--<Application.Resources>
+    <ResourceDictionary>
+        <ResourceDictionary.MergedDictionaries>
+            <ResourceDictionary Source="/WpfResource;component/Resource/Color.xaml"/>
+            <ResourceDictionary Source="/WpfResource;component/Resource/ButtonStyle.xaml" />
+            <ResourceDictionary Source="/WpfResource;component/Resource/TextBoxStyle.xaml" />
+            <ResourceDictionary Source="/WpfResource;component/Resource/MenuStyle.xaml" />
+            <ResourceDictionary Source="/WpfResource;component/Resource/MenuItemStyle.xaml" />
+        </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>
+</Application.Resources>-->

@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DianLiJieXi", "DianLiJieXi\DianLiJieXi.csproj", "{7EC2DF6E-008A-44A5-BCA8-7FA86D17ABA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunicationServers", "CommunicationServers\CommunicationServers.csproj", "{EE21AC1E-0FBB-4EEA-8D22-EB6C9775F4D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtocolFamily", "ProtocolFamily\ProtocolFamily.csproj", "{A3455767-BB03-4C0D-BD4D-948096C7526A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{EE86E0B8-F165-4521-BF16-4A0783924F5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfResource", "WpfResource\WpfResource.csproj", "{554C0BCC-A554-40A9-865D-F51A69C1CB98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfServers", "WpfServers\WpfServers.csproj", "{E83233BE-19F6-4922-A849-D68DBB678C0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EC2DF6E-008A-44A5-BCA8-7FA86D17ABA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC2DF6E-008A-44A5-BCA8-7FA86D17ABA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC2DF6E-008A-44A5-BCA8-7FA86D17ABA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC2DF6E-008A-44A5-BCA8-7FA86D17ABA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE21AC1E-0FBB-4EEA-8D22-EB6C9775F4D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE21AC1E-0FBB-4EEA-8D22-EB6C9775F4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE21AC1E-0FBB-4EEA-8D22-EB6C9775F4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE21AC1E-0FBB-4EEA-8D22-EB6C9775F4D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3455767-BB03-4C0D-BD4D-948096C7526A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3455767-BB03-4C0D-BD4D-948096C7526A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3455767-BB03-4C0D-BD4D-948096C7526A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3455767-BB03-4C0D-BD4D-948096C7526A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE86E0B8-F165-4521-BF16-4A0783924F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE86E0B8-F165-4521-BF16-4A0783924F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE86E0B8-F165-4521-BF16-4A0783924F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE86E0B8-F165-4521-BF16-4A0783924F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{554C0BCC-A554-40A9-865D-F51A69C1CB98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{554C0BCC-A554-40A9-865D-F51A69C1CB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{554C0BCC-A554-40A9-865D-F51A69C1CB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{554C0BCC-A554-40A9-865D-F51A69C1CB98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E83233BE-19F6-4922-A849-D68DBB678C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83233BE-19F6-4922-A849-D68DBB678C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83233BE-19F6-4922-A849-D68DBB678C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83233BE-19F6-4922-A849-D68DBB678C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
