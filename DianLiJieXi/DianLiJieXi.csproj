@@ -86,6 +86,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="bat\104规约%282002版%29报文解析剖析.pdf" />
+    <None Include="bat\104规约解析.pdf" />
+    <None Include="bat\DL-T_645-2007_多功能电能表通信规约%28含备案文件%29%2820190122101735%29.pdf" />
+    <None Include="bat\DL-T_645-2007_多功能电能表通信规约%28含备案文件%29.pdf" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -94,6 +98,28 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommunicationServers\CommunicationServers.csproj">
+      <Project>{ee21ac1e-0fbb-4eea-8d22-eb6c9775f4d9}</Project>
+      <Name>CommunicationServers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProtocolFamily\ProtocolFamily.csproj">
+      <Project>{a3455767-bb03-4c0d-bd4d-948096c7526a}</Project>
+      <Name>ProtocolFamily</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Services\Services.csproj">
+      <Project>{ee86e0b8-f165-4521-bf16-4a0783924f5c}</Project>
+      <Name>Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WpfResource\WpfResource.csproj">
+      <Project>{554c0bcc-a554-40a9-865d-f51a69c1cb98}</Project>
+      <Name>WpfResource</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WpfServers\WpfServers.csproj">
+      <Project>{e83233be-19f6-4922-a849-d68dbb678c0b}</Project>
+      <Name>WpfServers</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

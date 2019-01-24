@@ -51,6 +51,7 @@
     <Compile Include="ChangShaChuangYan\WeiBanGunYa.cs" />
     <Compile Include="ChangShaChuangYan\WeiBanYaHe.cs" />
     <Compile Include="ChangShaChuangYan\ZuHeYaMao.cs" />
+    <Compile Include="DianLi\DianLiHelper.cs" />
     <Compile Include="GPRSProtocol.cs" />
     <Compile Include="Interface\IAnalysisDataHelper.cs" />
     <Compile Include="Modbus\ModbusFunction.cs" />

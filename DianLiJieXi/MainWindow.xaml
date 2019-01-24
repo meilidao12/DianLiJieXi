@@ -6,7 +6,25 @@
         xmlns:local="clr-namespace:DianLiJieXi"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <!--Padding="10,0" FontSize="20" Margin="5"-->
+            <Setter Property="Padding" Value="10,0"></Setter>
+            <Setter Property="FontSize" Value="20"></Setter>
+            <Setter Property="Margin" Value="5"></Setter>
+        </Style>
+    </Window.Resources>
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock VerticalAlignment="Center" FontSize="20">远程IP</TextBlock>
+                <TextBox Name="txtIP" Width="300" FontSize="20"></TextBox>
+                <Button Name="btnConnect" Click="btnConnect_Click">连接</Button>
+            <Button Name="btnClose" Click="btnClose_Click">断开</Button>
+            </StackPanel>
+            <ListBox Grid.Row="1" Name="lstInfoLog"   Background="White"></ListBox>
     </Grid>
 </Window>
